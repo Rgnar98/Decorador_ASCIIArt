@@ -7,9 +7,7 @@ public class Demo {
         cosas.add(new Cuadrado(3,'o'));
         cosas.add(new Triangulo(5, 't'));
         for(AsciiArt cosa : cosas)
-            dibuja(new Marco(cosa, '.'));
-
-
+            dibuja(new Marco(new DuplicaHorizontal(cosa), '.'));
 
     }
 

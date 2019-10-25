@@ -13,8 +13,4 @@ public abstract class AsciiArt {
         return lineas;
     }
 
-    public void dibuja(){
-        for (String linea : lineas) System.out.println(linea);
-
-    }
 }
